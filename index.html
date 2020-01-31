@@ -8,12 +8,12 @@
   </head>
   <body>
     <header><h1>True or False?</h1></header>
-    <p>Explanation goes here...</p>
-    <div id="question">Questions go here</div>
+    <p>Click below for a question and give us your answer!</p>
+    <div id="question"></div>
 
-    <button id="tru" class="button" onclick="answer()">True</button>
-    <button id="fals" class="button" onclick="answer()">False</button>
-    <div id="answer">answer goes here</div>
+    <button id="tru" class="button" onclick="answer('True')">True</button>
+    <button id="fals" class="button" onclick="answer('False')">False</button>
+    <div id="answer"></div>
     <button id="newquestion" class="button" onclick="newQuestion()">
       Give me a new question!
     </button>
